@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../static/contact-us_36325-2135.webp')no-repeat center center/cover;
+}
+
+h1{
+    margin: 12px 0px;
+    text-align: center;
+}
+
+.myForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.myInput{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 8px;
+   width: 40%;
+   border-radius: 10px;
+   font-size: 16px;
+   outline: none;
+}
+
+.btn{
+   padding: 5px 25px;
+   font-size: 18px;
+   border: 2px solid black;
+   border-radius: 18px;
+   color: white;
+   background-color: black;
+   cursor: pointer;
+   margin-top: 12px;
+   margin-bottom: 12px;
+   outline: none;
+}
+
+.btn:hover{
+   
+    color: white;
+    background-color:red ;
+    
+ }
+
+ .container{
+    min-height: 70vh;
+    margin: 45px 0px;
+ }
+
+ .container h1{
+    font-family: 'Lacquer', cursive;
+    font-size: 35px;
+ }
